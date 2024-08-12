@@ -7,4 +7,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { useStore } from 'pinia'
+const store = useStore()
+const count = computed(() => store.count)
 </script>
