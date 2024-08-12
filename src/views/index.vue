@@ -2,6 +2,7 @@
   <div>
     <!-- -->
     <div>my new vue file</div>
+    <div>hello world</div>
   </div>
 </template>
 
